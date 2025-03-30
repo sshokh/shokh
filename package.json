@@ -9,9 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/button": "^2.2.10",
+    "@heroui/card": "^2.2.10",
+    "@heroui/react": "^2.6.14",
+    "@heroui/skeleton": "^2.2.6",
+    "@heroui/system": "^2.4.7",
+    "@heroui/tabs": "^2.2.8",
+    "@heroui/theme": "^2.4.6",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "framer-motion": "^12.4.3",
+    "motion": "^12.5.0",
+    "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "solar-icon-set": "^1.0.0",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "postcss": "^8",
