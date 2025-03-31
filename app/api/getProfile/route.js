@@ -1,9 +1,8 @@
 import 'dotenv/config'
 import axios from 'axios'
 
-const RIOT_ID = 'optifire'; // Your Riot ID
-const TAGLINE = 'socks';
 const GITHUB_USERNAME = 'sshokh';
+const DISCORD_ID = '1002464043665195038';
 
 export async function GET(request) {
     const type = request.nextUrl.searchParams.get("from")
@@ -18,8 +17,8 @@ export async function GET(request) {
     switch (type) {
         case "discord":
             try {
-                const { data } = await axios.get(
-                    'https://discord.com/api/v9/users/1002464043665195038/profile',
+                const { data } = await axios(
+                    `https://discord.com/api/v9/users/${DISCORD_ID}/profile`,
                     { headers: { 'Authorization': process.env.DISCORD_TOKEN } }
                 )
 
@@ -30,7 +29,7 @@ export async function GET(request) {
             } catch (error) {
                 console.error(error)
                 return new Response(
-                    JSON.stringify({ error: error.message }),
+                    JSON.stringify({ error }),
                     { status: 500, headers: { 'Content-Type': 'application/json' } }
                 )
             }
