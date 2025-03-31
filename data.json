@@ -4,13 +4,13 @@
             {
                 "name": "JavaScript",
                 "link": "developer.mozilla.org/en-US/docs/Web/JavaScript",
-                "logo": "/javascript.png",
+                "logo": "/tech/javascript.png",
                 "description": "Lightweight interpreted (or just-in-time compiled) programming language with first-class functions."
             },
             {
                 "name": "Python",
                 "link": "python.org",
-                "logo": "/python.png",
+                "logo": "/tech/python.png",
                 "description": "Interpreted, object-oriented, high-level programming language with dynamic semantics."
             }
         ],
@@ -18,25 +18,25 @@
             {
                 "name": "Vue",
                 "link": "vuejs.org",
-                "logo": "/vue.png",
+                "logo": "/tech/vue.png",
                 "description": "Approachable, performant progressive, and versatile Javascript framework for building web user interfaces."
             },
             {
                 "name": "Next.js",
                 "link": "nextjs.org",
-                "logo": "/nextjs.png",
+                "logo": "/tech/nextjs.png",
                 "description": "React framework for building full-stack web applications."
             },
             {
                 "name": "Django",
                 "link": "djangoproject.com",
-                "logo": "/django.png",
+                "logo": "/tech/django.png",
                 "description": "High-level Python web framework that encourages rapid development and clean, pragmatic design."
             },
             {
                 "name": "TailwindCSS",
                 "link": "tailwindcss.com",
-                "logo": "/tailwind.png",
+                "logo": "/tech/tailwind.png",
                 "description": "Utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup."
             }
         ],
@@ -44,43 +44,43 @@
             {
                 "name": "HeroUI",
                 "link": "heroui.com",
-                "logo": "/heroui.png",
+                "logo": "/tech/heroui.png",
                 "description": "UI library for React that helps you build beautiful and accessible user interfaces."
             },
             {
                 "name": "ShadCN",
                 "link": "ui.shadcn.com",
-                "logo": "/shadcn.png",
+                "logo": "/tech/shadcn.png",
                 "description": "Set of beautifully-designed, accessible components and a code distribution platform."
             },
             {
                 "name": "ShadCN-Vue",
                 "link": "shadcn-vue.com",
-                "logo": "/shadcn-vue.png",
+                "logo": "/tech/shadcn-vue.png",
                 "description": "An unofficial, community-led Vue port of shadcn/ui."
             },
             {
                 "name": "Aceternity UI",
                 "link": "ui.aceternity.com",
-                "logo": "/aceternity.png",
+                "logo": "/tech/aceternity.png",
                 "description": "Versatile UI component library that offers a vast collection of pre-built, highly customizable components."
             },
             {
                 "name": "Magic UI",
                 "link": "magicui.design",
-                "logo": "/magicui.png",
+                "logo": "/tech/magicui.png",
                 "description": "Collection of re-usable components that you can copy and paste into your web apps."
             },
             {
                 "name": "Solar Icons",
                 "link": "icon-sets.iconify.design/solar",
-                "logo": "/iconify.png",
+                "logo": "/tech/iconify.png",
                 "description": "Home of open source icon sets. All popular icon sets, one framework."
             },
             {
                 "name": "Lucide Icons",
                 "link": "lucide.dev",
-                "logo": "/lucide.jpg",
+                "logo": "/tech/lucide.jpg",
                 "description": "Icon library that provides 1000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. "
             }
         ]
